@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Minha Lista de Tarefas</h1>
+
+    <div class="section">
+      <h2>Tarefas Pendentes</h2>
+      <div class="task-form">
+        <input type="text" id="taskInput" placeholder="Adicionar nova tarefa">
+        <button onclick="addTask()">Adicionar</button>
+      </div>
+      <ul id="pendingTaskList">
+        <!-- Tarefas pendentes serão adicionadas dinamicamente aqui -->
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Nova Tarefa</h2>
+      <ul id="newTaskList">
+        <!-- Novas tarefas serão adicionadas dinamicamente aqui -->
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Todas as Tarefas</h2>
+      <ul id="allTaskList">
+        <!-- Todas as tarefas serão adicionadas dinamicamente aqui -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <footer>
+    <!-- Código do rodapé -->
+    <p>&copy; 2023 Meu Site - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
+    
